@@ -1,0 +1,11 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+    <env-entry>
+        <env-entry-name>sqlFindQuery</env-entry-name>
+        <env-entry-value>SELECT * FROM MYDERBYDB.TABLE_TEST WHERE id = ?</env-entry-value>
+        <env-entry-type>java.lang.String</env-entry-type>
+    </env-entry>
+</web-app>
